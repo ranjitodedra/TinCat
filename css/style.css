@@ -1,0 +1,161 @@
+/* Target by elements */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1.5;
+    padding: 15% 2px 2% 0%;
+}
+
+p {
+    font-size: 1rem;
+    color: #525453;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Target by Class */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 300%;
+    height: 70%;
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.btn {
+    margin: 3% 3% 3% 0%;
+} 
+
+.phone {
+    transform: rotate(20deg);
+    position: relative;
+    top: 20%;
+    width: 100%;   
+}
+
+.fa-solid {
+   color: #FD267A;
+   margin-bottom: 5%;
+}
+
+.fa-solid:hover {
+    color: #ff5376;
+}
+
+.card-btn {
+    width: 80%;
+}
+
+.garfil-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.companies-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card {
+    margin: 5% 5%;
+}
+
+.social-icons {
+    margin: 0% 1% 3%;
+    color: #060606;
+}
+
+/* Target by Id */
+
+#title {
+    background-color:  #FD267A;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+    bottom: 40px;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 2;
+}
+
+#Testimonials {
+    text-align: center;
+    background-color: #FD267A;
+    color: #fff;
+}
+
+
+#press {
+    text-align: center;
+    background-color:  #FD267A;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+    background-color:  #FD267A;
+}
+
+#social {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+@media (max-width:1028px) {
+
+    #title {
+        background-color:  #FD267A;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    .phone {
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+
+}
