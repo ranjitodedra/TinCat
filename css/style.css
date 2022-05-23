@@ -158,4 +158,13 @@ h3 {
         
     }
 
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        line-height: 1;
+        font-size: 1rem;
+        padding: 15% 2px 2% 0%;
+    }
+
+
 }
