@@ -34,15 +34,13 @@
 <body>
     <!-- Title -->
 
-    <section id="title">
+    <section class="colored-section" id="title">
+
         <!-- ====== Navbar ====== -->
+
         <div class="container-fluid">
-
             <nav class="navbar navbar-expand-lg navbar-dark">
-
                 <a class="navbar-brand" href="#">tincat</a>
-
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -53,21 +51,21 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#social">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                            <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Download</a>
+                            <a class="nav-link active" aria-current="page" href="#footer">Download</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            
-            <!-- Hero -->
-            <div class="row">
 
+            <!-- Hero -->
+
+            <div class="row">
                 <div class="col-lg-6">
                     <h1 class="title">Meet new and intersting cats nearby.</h1>
                     <a class="btn btn-dark" href=""><i class="fa-brands fa-apple"></i> Download</a>
@@ -80,13 +78,9 @@
         </div>
     </section>
 
-    <div class="w">
-
-    </div>
-
     <!-- Feature -->
-    <section id="features">
-        <div class="functionality container">
+    <section class="white-section" id="features">
+        <div class="functionality container-fluid">
             <div class="row">
                 <div class="col-lg-4">
                     <i class="fa-solid fa-circle-check fa-5x ml-auto"></i>
@@ -109,7 +103,7 @@
 
     <!-- Testimonials -->
 
-    <section id="Testimonials">
+    <section class="colored-section" id="Testimonials">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -117,12 +111,12 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active container-fluid">
                     <h2>I no longer have to sniff other cats for love.I've found cute citty on Tincat. Meow. </h2>
                     <img class="garfil-img" src="images/Garfil.jpg" alt="cat image">
                     <em>Garfil, New York</em>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item container-fluid">
 
                     <h2>My cat used to be so lonely, but with Tincat's help, they've found lots of friends.</h2>
                     <img class="garfil-img" src="images/lisa.jpg" alt="cat image">
@@ -141,7 +135,7 @@
     </section>
 
     <!-- Press -->
-    <section id="press">
+    <section class="colored-section" id="press">
         <img class="companies-logo" src="images/techcrunch-logo-6C988B096F-seeklogo.com.png" alt="techcrunch">
         <img class="companies-logo" src="images/tnw-the-next-web-logo-170BC28E96-seeklogo.com.png" alt="thenextweek">
         <img class="companies-logo" src="images/business-insider-logo-A1786D2DDA-seeklogo.com.png"
@@ -151,7 +145,8 @@
 
 
     <!-- Pricing -->
-    <section id="pricing">
+    <section class="white-section" id="pricing">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
@@ -165,12 +160,14 @@
                             <p class="card-text">Unlimited App Usage</p>
                             <a class="btn btn-outline-dark card-btn" href="">Sign up for free</a>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card">
-                        <div class="card-header"><h3>Turkish Angora</h3></div>
+                        <div class="card-header">
+                            <h3>Turkish Angora</h3>
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title">$49/month</h3>
                             <p class="card-text">Unlimited Matches</p>
@@ -178,13 +175,15 @@
                             <p class="card-text">Unlimited App Usage</p>
                             <a class="btn btn-dark card-btn" href="">Get started</a>
                         </div>
-                        
+
                     </div>
 
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <div class="card-header"><h3>Russian Blue</h3></div>
+                        <div class="card-header">
+                            <h3>Russian Blue</h3>
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title">$99/month</h3>
                             <p class="card-text">Priority Listing</p>
@@ -193,27 +192,30 @@
                             <p class="card-text">Unlimited App Usa</p>
                             <a class="btn btn-dark card-btn" href="">Contact us</a>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <section id="footer">
-
-        <h2>Find the True Love of Your Cats Life Today</h2>
-        <a class="btn btn-dark" href=""><i class="fa-brands fa-apple"></i> Download</a>
-        <a class="btn btn-light" href=""><i class="fa-brands fa-google-play"></i> Download</a>
-
+    <section class="colored-section" id="footer">
+        <div class="container-fluid">
+            <h2 class="footer-text">Find the True Love of Your Cats Life Today</h2>
+            <a class="btn btn-dark footer-donwload-btn" href=""><i class="fa-brands fa-apple"></i> Download</a>
+            <a class="btn btn-light footer-donwload-btn" href=""><i class="fa-brands fa-google-play"></i> Download</a>
+        </div>
     </section>
 
-    <section id="social">
-        <i class="fa-brands fa-twitter social-icons"></i>
-        <i class="fa-brands fa-facebook-f social-icons"></i>
-        <i class="fa-brands fa-instagram social-icons"></i>
-        <i class="fa-solid fa-envelope social-icons"></i>
-        <p class="copyright">© Copyright 2022 TinCat</p>
+    <section class="white-section" id="social">
+        <div class="container-fluid">
+            <i class="fa-brands fa-twitter social-icons"></i>
+            <i class="fa-brands fa-facebook-f social-icons"></i>
+            <i class="fa-brands fa-instagram social-icons"></i>
+            <i class="fa-solid fa-envelope social-icons"></i>
+            <p class="copyright">© Copyright 2022 TinCat</p>
+        </div>
     </section>
 
 
