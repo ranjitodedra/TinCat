@@ -7,8 +7,10 @@
   
 - A website from which you can download Tinder For Cats.
 
-- [take look](https://ranjitodedra.github.io/TinCat/)
+- [take a look](https://ranjitodedra.github.io/TinCat/)
 
+- [x] Responsive 
+  
 - I have created this site using 
 1. HTML
 2. CSS
