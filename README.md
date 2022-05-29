@@ -1,4 +1,4 @@
-<h1 aling="center"> TinCat </h1>
+<h1 align="center">TinCat</h1>
 
 <p align="center">
   <image src="https://media2.giphy.com/media/BXjqytvu9bKzCUHdzz/giphy.gif?cid=ecf05e475inal199rcp396t17xfldywufb8z8bm7newxdjm0&rid=giphy.gif&ct=s">
