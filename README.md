@@ -21,4 +21,4 @@
 ![alt text](https://github.com/ranjitodedra/TinCat/blob/main/images/2.png)
 ![alt text](https://github.com/ranjitodedra/TinCat/blob/main/images/3.png)
 
-> you can use my code ask me if face any defficulties 
+> you can use my code ask me if you face any kind of defficulties.
